@@ -1,4 +1,4 @@
-# nginxqcproxy
+# nginx_config_tcp_appgateway
 NGINX configuation for reverse proxy (TCP stream) of QC DVR app using nginScript and stream js module to filter responses.
 
 The basic idea was for an NGINX reverse proxy to listen on port 80 (hosted in Microsoft Azure) and proxy incoming TCP requests to a Q-See QC Series Camera DVR. The DVR only accepts connections on user ports above 1024. By default the DVR is listening on port 37777 which may be blocked by firewalls.
